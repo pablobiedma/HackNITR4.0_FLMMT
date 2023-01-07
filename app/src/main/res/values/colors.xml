@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#5E5E5E</color>
+    <color name="colorAccent">#3EB642</color>
+
+    <color name="date_picker_dialog_header_background">@color/colorPrimaryDark</color>
+    <color name="date_picker_dialog_background">@color/colorPrimary</color>
+    <color name="date_picker_dialog_selected_day">@color/colorAccent</color>
+    <color name="date_picker_dialog_selected_month">#CEA6FFCC</color>
+    <color name="date_picker_dialog_day_of_week">@color/colorAccent</color>
+</resources>

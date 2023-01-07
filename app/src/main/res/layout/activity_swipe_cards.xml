@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".SwipeCards">
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="54dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="413dp"
+        app:srcCompat="@drawable/logo" />
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frame"
+        android:layout_width="158dp"
+        android:layout_height="223dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="173dp"
+        android:background="#ffeee9e2"
+        app:rotation_degrees="15.5"
+        tools:context=".SwipeCards" />
+
+    <TextView
+        android:id="@+id/Distance"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="129dp"
+        android:text="... Km away"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/AlsoLikes"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="409dp"
+        android:layout_marginEnd="0dp"
+        android:text="She also likes: James Stewart, ..."
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="61dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="122dp"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/coincidence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="412dp"
+        android:text="69%"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="61dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="122dp"
+        android:text="Age"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="47dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginBottom="42dp"
+        app:srcCompat="@drawable/cross" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="53dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="42dp"
+        app:srcCompat="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/messages"
+        android:layout_width="52dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="19dp"
+        app:srcCompat="@drawable/message" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="29dp"
+        app:srcCompat="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="175dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/filmmate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:text="Filmmate"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="33dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginBottom="113dp"
+        app:srcCompat="@drawable/i" />
+
+</RelativeLayout>

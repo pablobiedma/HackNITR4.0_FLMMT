@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+    <!--    android:background="@drawable/gradient"-->
+
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="#000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint=" E-mail"
+        android:inputType="textPersonName"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:textColorHint="#CEA6FFCC"
+        tools:ignore="Autofill,HardcodedText"
+        android:drawableStart="@drawable/ic_action_user" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="25dp"
+        android:background="#000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#CEA6FFCC"
+        android:textSize="17sp"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignBottom="@+id/cardView"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="100dp"
+        android:background="#000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint=" Repeat Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#CEA6FFCC"
+        android:textSize="17sp"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="304dp"
+        android:layout_height="56dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        app:cardBackgroundColor="#3EB642"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/signup"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account_login_here"
+        android:textColor="#EDA6FFCC"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout"/>
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="268dp"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/welcome_to"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="202dp"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="195dp"
+        android:layout_marginRight="195dp"
+        android:gravity="center"
+        android:text="@string/hello"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="@string/you_had_me_at"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:text="@string/filmmate"
+        android:textColor="#3EB642"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

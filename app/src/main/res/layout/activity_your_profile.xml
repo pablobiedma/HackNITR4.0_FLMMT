@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".yourProfile">
+
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frame"
+        android:layout_width="189dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="56dp"
+        android:background="#ffeee9e2"
+        app:rotation_degrees="15.5"
+        tools:context=".SwipeCards" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="61dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="18dp"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="61dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="18dp"
+        android:text="Age"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/directors"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="379dp"
+        android:text="Directors:"
+        android:textColor="@color/colorAccent"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/directors2"
+        android:layout_width="304dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="379dp"
+        android:layout_marginEnd="19dp"
+        android:text="Akira Kurosawa, Satyajit Ray, Ingmar Bergman"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/actresses"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="415dp"
+        android:text="Actresses:"
+        android:textColor="@color/colorAccent"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/actresses2"
+        android:layout_width="304dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="418dp"
+        android:layout_marginEnd="19dp"
+        android:text="Bette Davis, Katherine Hepburn, Barbara Stanwyck"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/actors"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="451dp"
+        android:text="Actors:"
+        android:textColor="@color/colorAccent"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/actors2"
+        android:layout_width="304dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="458dp"
+        android:layout_marginEnd="19dp"
+        android:text="James Stewart, Cary Grant, Henry Fonda"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/movies"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="485dp"
+        android:text="Movies:"
+        android:textColor="@color/colorAccent"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/movies2"
+        android:layout_width="304dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="487dp"
+        android:layout_marginEnd="16dp"
+        android:text="Casablanca (1942), Citizen Kane (1941), Bicycle Thieves (1948)"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="0dp"
+        android:text="Bio:   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginBottom="34dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Edit Profile" />
+
+</RelativeLayout>

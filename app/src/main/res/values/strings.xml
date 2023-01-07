@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Filmmate</string>
+    <string name="hello">Hello,</string>
+    <string name="you_had_me_at">You had me at...</string>
+    <string name="filmmate">Filmmate</string>
+    <string name="welcome_to">welcome to</string>
+    <string name="already_have_an_account_login_here">Already have an account? Login here</string>
+    <string name="signup">Signup</string>
+    <string name="you_don_t_have_an_account_sign_up_here">You don\'t have an account? Sign up here</string>
+    <string name="login">Login</string>
+    <string name="all_about_eve_1950">All about Eve (1950)</string>
+    <string name="select_your_3_favourite_actresses">Select your 3 favourite actresses</string>
+    <string name="some_of_the_greatest_directors">Some of the greatest directors</string>
+    <string name="select_your_3_favourite_directors">Select your 3 favourite directors</string>
+    <string name="select_your_3_favourite_actors">Select your 3 favourite actors</string>
+    <string name="from_here_to_eternity_1953">From Here To Eternity (1953)</string>
+    <string name="select_your_3_favourite_movies">Select your 3 favourite movies</string>
+    <string name="cinema_paradiso_1988">Cinema Paradiso (1988)</string>
+    <string name="select_your_gender">Select your gender</string>
+    <string name="female">Female</string>
+    <string name="what_are_you_looking_for">What are you looking for?</string>
+    <string name="both">Both</string>
+    <string name="male">Male</string>
+    <string name="next">Next</string>
+    <string name="select_your_birthday">Select your birthday</string>
+    <string name="next2">Next</string>
+</resources>
